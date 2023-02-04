@@ -1,0 +1,162 @@
+:root {
+  --dark-background: #1f2937;
+  --text-white: #f9faf8;
+  --button-primary: #3382f6;
+  --text-black: #1f2937;
+  --grey-color: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--dark-background);
+  padding: 2em 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.hero-content {
+  width: 35%;
+}
+
+.hero-text {
+  font-weight: 700;
+  color: var(--text-white);
+  font-size: 48px;
+}
+
+.hero-description {
+  color: var(--text-white);
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--text-white);
+  font-weight: 900;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.menu-item {
+  font-size: 18px;
+  color: var(--grey-color);
+}
+
+.btn {
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  background-color: var(--button-primary);
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0 3em 0;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.square {
+  border: 4px solid var(--button-primary);
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+
+.card p {
+  font-weight: 300;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--grey-color);
+  padding: 7em 26em;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  color: var(--text-black);
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-black);
+}
+
+.sign-up {
+  display: flex;
+  background-color: var(--button-primary);
+  padding: 2em 10em;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-white);
+  margin: 7em auto;
+}
+
+.btn-lg {
+  border: 1px solid var(--grey-color);
+  color: var(--text-white);
+  border-radius: 5px;
+  padding: 0.5rem 1.8rem;
+}
+
+footer {
+  background-color: var(--dark-background);
+  color: var(--text-white);
+  padding: 2em 0;
+  text-align: center;
+}
